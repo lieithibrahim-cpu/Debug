@@ -1,25 +1,24 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>coderz Open Day</title>
 </head>
-
 <body>
     <h1>coderz Open Day</h1>
-    <table>
+    <table border="1" cellpadding="5" cellspacing="0">
         <caption>Visitors by room and time</caption>
         <thead>
             <tr>
                 <th scope="col">Room</th>
                 <th scope="col">Time</th>
-                <td>Visitors</td>
+                <th scope="col">Visitors</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="rowgroup" rowspan="1">Lab A</th>
+                <th scope="rowgroup" rowspan="2">Lab A</th>
                 <td>Morning</td>
                 <td>12</td>
             </tr>
@@ -27,8 +26,6 @@
                 <td>Evening</td>
                 <td>8</td>
             </tr>
-        </tbody>
-        <tbody>
             <tr>
                 <th scope="row">Lab B</th>
                 <td>Morning</td>
@@ -37,11 +34,10 @@
         </tbody>
         <tfoot>
             <tr>
-                <th scope="row">Total visitors</th>
-                <td>23</td>
+                <th scope="row" colspan="2">Total visitors</th>
+                <td>25</td>
             </tr>
         </tfoot>
     </table>
 </body>
-
 </html>
